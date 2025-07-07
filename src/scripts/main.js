@@ -7,7 +7,7 @@ function waitFor(element, eventName) {
       resolve(
         `It was ${eventName} on the element: ${element.nodeName}, id: ${element.id}.`,
       );
-    }, 0);
+    }, 3000);
   });
 }
 
